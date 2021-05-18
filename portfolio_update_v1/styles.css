@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/cover.jpg') no-repeat center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -86,12 +86,14 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: slateblue;
+  font-weight: bold;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
+  min-width: 40%;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -171,10 +173,11 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: -ms-fflexlexbox;      /* TWEENER - IE 10 */
       display: flex; 
+      flex-wrap: wrap;
       max-width: 1200px;
-      -ms-flex-pack: distribute;
+      /* -ms-flex-pack: distribute; */
       justify-content: space-around;
       margin: 0 auto;
   }
