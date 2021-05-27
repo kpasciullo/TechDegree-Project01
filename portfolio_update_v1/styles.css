@@ -120,6 +120,20 @@ h2 {
   margin: 2px;
 }
 
+.resume-image {
+  width: 100%;
+  height: auto;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  transition: all 1.5s;
+}
+.resume-image:hover {
+  transform: scale(1.3);
+}
+
+.resume-link{
+  color: slateblue;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
