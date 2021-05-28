@@ -131,7 +131,18 @@ h2 {
 }
 
 .resume-link{
-  color: slateblue;
+  color: rgb(201, 194, 241);
+}
+
+.contact-image {
+  display: block;
+  margin: auto;
+  width: 30%;
+  height: auto;
+}
+
+.contact-link {
+  font-size: 30px;
 }
 
 footer {
