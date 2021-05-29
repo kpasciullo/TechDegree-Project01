@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgba(255, 255, 255, 0.6);
 }
 a:hover {
   color: #6633ff;
@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.section {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -94,7 +94,7 @@ h2 {
   color: slateblue;
   font-weight: bold;
 }
-.card {
+.article {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -105,7 +105,7 @@ h2 {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.article:hover {
   border-color: #ff99ff;
 }
 
@@ -131,18 +131,31 @@ h2 {
 }
 
 .resume-link{
-  color: rgb(201, 194, 241);
+  color: slateblue;
+}
+
+.resume-link:hover {
+  color: #ff99ff;
 }
 
 .contact-image {
   display: block;
   margin: auto;
-  width: 30%;
+  width: 40%;
   height: auto;
+  padding: 5px;
 }
 
 .contact-link {
   font-size: 30px;
+  text-align: center;
+  display: block;
+  color: slateblue;
+}
+
+.contact-link:hover {
+  transform: scale(1.2);
+  color: #ff99ff;
 }
 
 footer {
