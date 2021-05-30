@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.section {
+.main-nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -49,7 +49,7 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
-  transition: all .5s;
+ transition: all .5s;
 }
 .nav a:hover {
   color: white
@@ -94,7 +94,7 @@ h2 {
   color: slateblue;
   font-weight: bold;
 }
-.article {
+.card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -105,7 +105,7 @@ h2 {
   border-radius: 6px;
   transition: all .5s;
 }
-.article:hover {
+.card:hover {
   border-color: #ff99ff;
 }
 
